@@ -1,0 +1,218 @@
+/* Mailing List */
+
+.fieldWrap {
+    padding-bottom: 10px;
+    position: relative;
+}
+.fieldWrap input {
+    border: 0px;
+    width: 80%;
+    padding: 20px 0% 20px 0%;
+    margin: 1px 0px 1px 0px;
+	font-weight: 300;
+    text-align: center;
+    color: #d9dfe7;
+    background: #444;
+    border-bottom: 0px solid #fff;
+    font-family: 'Cinzel', serif;
+    -webkit-appearance: none;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 22px;
+    -webkit-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type="submit"]{
+    background: #d9dfe7;
+    border: 1px solid #FFF;
+    width: 80%;
+    font-size: 22px;
+    color: #000;
+	font-weight: 300;
+    margin: 1px 0px 50px 0px;
+    padding: 18px 0% 18px 0%;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    transition-duration: 0.2s;
+    -webkit-appearance: none;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+}
+input[type="submit"]:hover{
+    background: #666;
+    border: 1px solid #666;
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+.custom-field-section {
+    margin-bottom: 2vw;
+}
+.fieldWrap .errored {
+    border: 1px solid #ff0000;
+}
+
+.input-error {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    color: #ff0000;
+    font-size: 16px;
+    text-transform:none;
+    text-transform: uppercase;
+}
+.fadeOut {
+    display: none;
+}
+.fadeIn {
+    display: block;
+}
+
+.terms-message {
+    padding: 20px 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.terms-message a {
+    color: #FFFFFF;
+    text-decoration: none;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.terms-message a:hover {
+    opacity: 0.5;
+}
+
+.thankyou {
+    font-size: 23px;
+    text-align: center;
+    padding: 0;
+    text-transform: uppercase;
+	font-family: 'Cinzel', serif;
+}
+
+
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: var(--site-text-color);
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--site-text-color);
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: var(--site-text-color);
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--site-text-color);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: var(--site-text-color) !important;
+    /* -webkit-text-fill-color: var(--site-text-color); */
+    /* -webkit-box-shadow: 0 0 0px 1000px var(--site-background-color) inset; */
+}
+
+.terms-view {
+    margin: 0 auto;
+    max-width: 100%;
+    color: var(--site-text-color);
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 0;
+    text-transform: none;
+    opacity: 52%;
+    padding-bottom: 25px;
+}
+.terms-view a{
+    text-decoration:underline;
+    text-transform: lowercase;
+}
+
+.terms-view a:hover{
+   opacity: 0.7;
+}
+.mlist-checks {
+    text-align: left;
+    position: relative;
+    padding-left: 35px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    line-height:24px;
+}
+
+
+#mlistFormOne [type="checkbox"]:not(:checked), #mlistFormOne [type="checkbox"]:checked {
+    position: absolute;
+    left: 3px;
+    width: 19px;
+    height: 18px;
+    z-index: 10;
+    top: -1px;
+    opacity: 0;
+    cursor: pointer;
+    margin: 0;
+    -webkit-appearance: none;
+    padding: 0;
+}
+#mlistFormOne [type="checkbox"]:not(:checked) + label.global-list::before, #mlistFormOne [type="checkbox"]:checked + label.global-list::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    width: 19px;
+    height: 18px;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+#mlistFormOne [type="checkbox"].errored:not(:checked) + label::before, #mlistFormOne [type="checkbox"].errored:checked + label::before {
+    border: 1px solid #ff0000;
+}
+#mlistFormOne [type="checkbox"]:not(:checked) + label.global-list::after, #mlistFormOne [type="checkbox"]:checked + label.global-list::after {
+    content: "\2713";
+    position: absolute;
+    top: 3px;
+    line-height: 18px;
+    left: 4px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+#mlistFormOne [type="checkbox"]:not(:checked) + label.global-list::after {
+    opacity: 0;
+    transform: scale(0);
+}
+@media only screen and (max-width: 767px) { 
+    .thankyou {
+		font-family: 'Cinzel', serif;
+        font-size: 22px;
+    }
+}

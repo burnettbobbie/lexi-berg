@@ -1,0 +1,194 @@
+h2.tour-title {
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+}
+section.tour-section {
+    padding-bottom: 0;
+}
+#wskWidget {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#wskWidget .no-dates {
+    width: 100%;
+    text-align: center;
+}
+
+#wskWidget .widget_row.nodates {
+    display: block;
+    font-size: 22px;
+}
+
+#wskWidget .widget_row {
+    display: grid;
+    grid-template-columns: 150px calc(100% - 300px) 150px;
+    grid-template-areas:
+        "date location links";
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: none;
+    align-items: center;
+    padding: 5px 0 25px;
+}
+
+#wskWidget .widget_row div {
+    color:#fff;
+    line-height: 1.4;
+}
+
+#wskWidget .widget_row > div {
+    width: 100%;
+    padding: 0;
+}
+
+#wskWidget .event_date {
+    grid-area: date;
+    width: 200px;
+}
+
+#wskWidget .event_location {
+    grid-area: location;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "specialEvent loc"
+        "venue loc"
+        "featArtists loc";
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+#wskWidget .special-event {
+    grid-area: specialEvent;
+}
+
+#wskWidget .venue {
+    grid-area: venue;
+}
+
+#wskWidget .location {
+    grid-area: loc;
+}
+
+#wskWidget .event_location .featuring-artists {
+    grid-area: featArtists;
+}
+
+#wskWidget .event_links {
+    grid-area: links;
+}
+
+#wskWidget .event_links a {
+    background-color: #000;
+    color:#fff;
+    width:95%;
+    display:block;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border:2px solid #23292d;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 4px 0;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: none;
+    box-shadow: 10px 10px 20px 1px rgb(0 0 0 / 20%);
+}
+#wskWidget .event_date .date.plain_text::after, #wskWidget .event_date .month.plain_text::after {
+    content: ".";
+    position: relative;
+    top: 0;
+    left: 5px;
+}
+#wskWidget .event_date div{
+    margin-right: 8px;
+    color: #fff;
+}
+.event_links {
+    transition: .2s;
+}
+#wskWidget .event_links a:hover  {
+    color: #fff;
+    background-color: #474e52;
+    /* border:1px solid #474e52; */
+   
+}
+
+#wskWidget .event_links a.no-link {
+    display: none;
+}
+
+#wskWidget .widget_row > .featuring-artists {
+    display: none;
+}
+
+#wskWidget .featuring-artists:empty,
+#wskWidget #event_id-39746228, 
+#wskWidget #event_id-39746230 {
+    display: none;
+}
+
+@media only screen and (max-width: 767px)  and (orientation: portrait){
+    #wskWidget {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    #wskWidget .event_links {
+        transform: none;
+        position: static;
+    }
+
+    #wskWidget .widget_row {
+        grid-template-columns: 140px calc(100% - 150px);
+        grid-template-areas:
+            "date location"
+            "date links";
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 24px;
+        padding: 0 0 30px;
+    }
+    #wskWidget .widget_row div {
+        font-size: 20px;
+    }
+    #wskWidget .event_links a {
+        font-size: 20px;
+    }
+    
+    #wskWidget div.event_location {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "specialEvent"
+            "loc"
+            "venue"
+            "featArtists";
+        text-align: center;
+        padding: 0 0 30px;
+    }
+    
+    #wskWidget .event_location > div {
+        padding-bottom: 3px;
+    }
+    
+    #wskWidget .event_links a {
+        max-width: 150px;
+    }
+}
+@media only screen and (max-width: 767px)  and (orientation: landscape){
+
+    #wskWidget .widget_row > div {
+        width: 95%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+  	<meta charset="UTF-8">
+  	<title>Lexi Berg</title>
+  	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+		<!-- Primary Meta Tags -->
+<title>Lexi Berg</title>
+<meta name="title" content="Lexi Berg">
+<meta name="description" content="The official website of Lexi Berg">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://lexiberg.com/">
+<meta property="og:title" content="Lexi Berg">
+<meta property="og:description" content="The official website of Lexi Berg">
+<meta property="og:image" content="https://lexiberg.com/img/lexiberg.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://lexiberg.com/">
+<meta property="twitter:title" content="Lexi Berg">
+<meta property="twitter:description" content="The official website of Lexi Berg">
+<meta property="twitter:image" content="https://lexiberg.com/img/lexiberg.jpg">
+	
+<body>
+	
+<div class="header">
+	
+	<div class="topleft"><a href="index.html"><img src="img/LexiBerg_Logo.png" alt="Lexi Berg" class="logo"></a></div>
+	<div class="topright"><a class="navlink" href="biography.html">Biography</a><a class="navlink" href="video.html">Video</a><a class="navlink" href="signup.html">Sign-Up</a></div>
+	
+</div>
+	  
+<div class="wrap">
+	
+		<!-- <h2>Watch The Video</h2> -->
+		<!-- <p>Originally premiered on <a href="https://www.wonderlandmagazine.com/2021/05/14/new-noise-lexi-berg/" target="_blank">Wonderland</a>.</p> -->
+	
+		<iframe width="100%" height="455" id="video1" style="border: 1px solid #FFF; margin: 30px 0px 0px 0px;" src="https://www.youtube.com/embed/E4950fsFVxI?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+		<p>&nbsp;</p>
+
+	<div class="socials">
+		<a href="https://www.facebook.com/lexibergmusic" target="_blank" data-track="facebook-ftr"><img src="img/social_facebook.png" alt="Facebook" class="socialicon"></a>
+		<a href="https://www.instagram.com/berg/" target="_blank" data-track="instagram-ftr"><img src="img/social_instagram.png" alt="Instagram" class="socialicon"></a>
+		<a href="https://twitter.com/LexiBergMusic" target="_blank" data-track="twitter-ftr"><img src="img/social_twitter.png" alt="Twitter" class="socialicon"></a>
+		<a href="https://www.tiktok.com/@lexibergmusic" target="_blank" data-track="tiktok-ftr"><img src="img/social_tiktok.png" alt="TikTok" class="socialicon"></a>
+		<a href="https://www.youtube.com/channel/UC4NgMqbYnOUnVP8RZI1Auwg" target="_blank" data-track="youtube-ftr"><img src="img/social_youtube.png" alt="YouTube" class="socialicon"></a>
+	</div>
+
+	<p>&nbsp;</p>
+	
+    <span class="footer" style="font-size: 10px; line-height: 18px; margin: 50px 0px 50px 0px;">&copy; 2024 EastWest Records Limited<br><a href="">Terms of Use</a> &bull; <a href="\">Privacy Policy</a> &bull; <a href="https://www.wminewmedia.com/cookies-policy/" target="_blank">Cookies Policy</a> &bull; <a class="ot-sdk-show-settings" style="cursor:pointer">Cookies Settings</a></span>
+    <p>&nbsp;</p>
+
+</div>
+	
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+      jQuery('.download-button').click(function (event) {
+        event.preventDefault();
+        jQuery(this).next().fadeIn();
+      });
+
+
+      jQuery('.signup-form').each(function () {
+        var $formSignup = jQuery(this);
+        var formWrapper;
+        $formSignup.bind('submit', function (e) {
+          e.preventDefault();
+          formWrapper = jQuery(this).parents('.formarea');
+          let $form = window.jQuery(this);
+          const data = $form.serializeArray();
+          for (var i = 0; i < data.length; i++) {
+            var field = data[i];
+            if (field.value.length <= 1) {
+              alert("Please make sure you have filled in all fields");
+              return;
+            }
+          }
+          console.log("default.js:da (55)", data);//fordebug: debug print
+          jQuery.ajax({
+            method: 'POST',
+            url: 'https://signup.com/register?jsonp=cdcresult',
+            data: data,
+            cache: false
+          }).always(function (err, r, s) {
+            formWrapper.find('.form-wrapper').hide();
+            formWrapper.find('.thankyou-wrapper').fadeIn();
+            //_satellite.track("email sign-up")
+          });
+        });
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
