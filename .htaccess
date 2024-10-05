@@ -1,8 +1,8 @@
 RewriteEngine On
 
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteCond %{HTTP_HOST} !nds.acquia-psi.com$ [NC]
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+#RewriteCond %{HTTP:X-Forwarded-Proto} !https
+#RewriteCond %{HTTP_HOST} !nds.acquia-psi.com$ [NC]
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 
 # Remove .php extension from URLs
 RewriteCond %{REQUEST_FILENAME}.php -f

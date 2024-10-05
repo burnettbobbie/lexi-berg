@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
-
-  	<meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="img/android-chrome-192x192.png">
+  <meta charset="UTF-8">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:wght@300&display=swap" rel="stylesheet">
