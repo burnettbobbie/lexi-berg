@@ -30,7 +30,6 @@
 	background-color: rgba(0, 0, 255, 0.984);
   }
 
-
 /* video style */
 .yt-embed {
     /* border: 1px solid #FFF;  */
@@ -465,7 +464,12 @@ transform: rotate(-20deg);
 		  transform: translateX(-100%);
 		}
 	}	  
-	
+	.mobile-spotify{
+		display:inline-block;
+	}
+	.widesc-spotify{
+		display: none;
+	}
 	.wrap {
         width: 80%;
         margin: 0px 10% 0px 10%;
@@ -666,9 +670,17 @@ transform: rotate(-20deg);
 	.topright {
 		/* display: contents; */
 	}
+
 }
 
 @media (min-width: 1000px) {
+
+	.mobile-spotify{
+		display: none;
+	}
+	.widesc-spotify{
+		display: inline-block;
+	}
 	.mobile-nav{
 		display: none;
 	}
