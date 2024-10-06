@@ -470,6 +470,10 @@ transform: rotate(-20deg);
 	.widesc-spotify{
 		display: none;
 	}
+
+	.quote-slider{
+		margin-top: 10vh;
+	}
 	.wrap {
         width: 80%;
         margin: 0px 10% 0px 10%;
@@ -764,6 +768,10 @@ transform: rotate(-20deg);
 		background-repeat: no-repeat;
 		background-size: contain; */
 
+	}
+
+	.quote-slider{
+		margin-top: 0;
 	}
 	
 }
