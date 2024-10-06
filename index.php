@@ -66,16 +66,18 @@
 		<a href="https://www.tiktok.com/@lexibergmusic" target="_blank" data-track="tiktok-ftr"><img src="img/social_tiktok.png" alt="TikTok" class="socialicon"></a>
 		<a href="https://www.youtube.com/channel/UC4NgMqbYnOUnVP8RZI1Auwg" target="_blank" data-track="youtube-ftr"><img src="img/social_youtube.png" alt="YouTube" class="socialicon"></a>
 	</div>	
+
 	</div>
 
 	<div class="topright">	
 		<a class="navlink" href="biography.php">Story</a><a class="navlink" href="video.php">Video</a><a class="navlink" href="live.php">Tour</a><a class="navlink" href="press.php">Press</a>
+
 <!-- <a class="navlink" href="signup.php">Sign-Up</a> -->
 	</div>
 </div>
 
 <iframe class="widesc-spotify" style="border-radius:20px;margin-top:-12vh;box-shadow: 0px 70px 50px -10px rgba(0, 0, 255, 0.16);border-bottom: 12px solid blue;" src="https://open.spotify.com/embed/artist/5ZN5AAuWmyLdheRP0rE7dK?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading=""></iframe>
-<iframe class="mobile-spotify" style="transform:scale(2);border-radius:20px;margin-top:-25vh;box-shadow: 0px 70px 50px -10px rgba(0, 0, 255, 0.16);border-bottom: 12px solid blue;" src="https://open.spotify.com/embed/artist/5ZN5AAuWmyLdheRP0rE7dK?utm_source=generator&theme=0" width="45%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading=""></iframe>
+<iframe class="mobile-spotify" style="transform:scale(2);border-radius:20px;margin-top:-20vh;box-shadow: 0px 70px 50px -10px rgba(0, 0, 255, 0.16);border-bottom: 12px solid blue;" src="https://open.spotify.com/embed/artist/5ZN5AAuWmyLdheRP0rE7dK?utm_source=generator&theme=0" width="350px" height="352px" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading=""></iframe>
 	
 	<!-- #a98252 -->
 	<!-- border:2px solid #db6493;box-shadow: 0px 50px 50px -10px rgba(0, 0, 255, 0.16), 9px 5px 0px yellow; -->
