@@ -75,7 +75,7 @@
 </div>
 
 <iframe class="widesc-spotify" style="border-radius:20px;margin-top:-12vh;box-shadow: 0px 70px 50px -10px rgba(0, 0, 255, 0.16);border-bottom: 12px solid blue;" src="https://open.spotify.com/embed/artist/5ZN5AAuWmyLdheRP0rE7dK?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-<iframe class="mobile-spotify" style="border-radius:20px;margin-top:-22vh;box-shadow: 0px 70px 50px -10px rgba(0, 0, 255, 0.16);border-bottom: 12px solid blue;" src="https://open.spotify.com/embed/artist/5ZN5AAuWmyLdheRP0rE7dK?utm_source=generator&theme=0" width="80%" height="652" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe class="mobile-spotify" style="border-radius:20px;margin-top:-25vh;box-shadow: 0px 70px 50px -10px rgba(0, 0, 255, 0.16);border-bottom: 12px solid blue;" src="https://open.spotify.com/embed/artist/5ZN5AAuWmyLdheRP0rE7dK?utm_source=generator&theme=0" width="80%" height="552" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 	
 	<!-- #a98252 -->
 	<!-- border:2px solid #db6493;box-shadow: 0px 50px 50px -10px rgba(0, 0, 255, 0.16), 9px 5px 0px yellow; -->
