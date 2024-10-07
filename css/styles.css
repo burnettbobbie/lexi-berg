@@ -152,13 +152,8 @@
 	transition-duration: 0.5s;
 }
 
-.article:hover {
-	transform: translateX(15px);
-}
 
-.article:not(:hover) {
-	transform: translateX(-15px);
-}
+
 
 .read-more{
 	color: black;
@@ -270,6 +265,8 @@
 .article a:hover {
 	text-decoration: underline;
 }
+
+
 
 /* signup form styles */
 #mlb2-18630151.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4, #mlb2-18630151.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4{
@@ -691,7 +688,7 @@ transform: rotate(-20deg);
 	#bio-text >p {
 		font-size: 36px;
 		line-height: 4rem;
-		font-weight: 900;
+		font-weight: 500;
 	}
 
 	#bio-rest{
@@ -701,16 +698,33 @@ transform: rotate(-20deg);
 		padding: 2rem;
 		border-radius: 12px;
 		border: 2px solid white;
-		font-weight: 600;
+		font-weight: 400;
 		/* font-family: 'BHF Beats Bold'; */
 	}
 	#bio-rest>p{
 	font-size: 36px;
 	line-height: 4rem;
 	}
+
+	.article:focus {
+		transform: translateX(15px);
+	}
+	
+	/* .article:not(:focus) {
+		transform: translateX(-15px);
+	} */
+	
 }
 
 @media (min-width: 600px) {
+	.article:hover {
+		transform: translateX(15px);
+	}
+	
+	.article:not(:hover) {
+		transform: translateX(-15px);
+	}
+	
 	.topright {
 		/* display: contents; */
 	}
