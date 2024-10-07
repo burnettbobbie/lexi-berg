@@ -322,7 +322,7 @@
   }
   
   .quote p {
-	font-size: 1.2rem;
+	font-size: 2rem;
 	line-height: 1.5;
   }
   
@@ -418,16 +418,16 @@ transform: rotate(-20deg);
 		border-top: 4px solid black;
 		box-shadow: 5px 2px 4px black;;
 		border-radius: 0px;
-		height: 5vh;
+		height: 7vh;
 		overflow: hidden;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		background-color: #000;
+		padding: 3vh 0vh 0vh 10vh;
 	  }
 	  
 	  #scroll-text {
-		font-size: 20px;
 		font-weight: 900;
 		letter-spacing: 0.8rem;
 		/* animation properties */
@@ -438,6 +438,10 @@ transform: rotate(-20deg);
 		-webkit-animation: my-animation 20s linear infinite;
 		animation: my-animation 20s linear infinite;
 		text-wrap: nowrap;
+	  }
+
+	  #scroll-text>p{
+		font-size: 60px;
 	  }
 	  
 	  /* for Firefox */
@@ -465,15 +469,27 @@ transform: rotate(-20deg);
 		}
 	}	  
 	.mobile-spotify{
-		display:inline-block;
+		display:block;
+	}
+
+	.mobile-spotify>img{
+		border-radius: 25px;
+	}
+
+	.mobile-spotify>img:hover{
+		box-shadow: 0px 0px 20px 1px white;
+		transition-duration: 1s;
+	}
+
+	.mobile-spotify>img:focus{
+		transform: scale(0.9);
 	}
 	.widesc-spotify{
 		display: none;
 	}
 
-	.quote-slider{
-		margin-top: 15vh;
-	}
+	
+
 	.wrap {
         width: 80%;
         margin: 0px 10% 0px 10%;
@@ -501,7 +517,7 @@ transform: rotate(-20deg);
 	
 	.logo {
 		margin: 45px auto 0px auto;
-		width: 160px;
+		width: 360px;
 	}
 	
 	.topleft {
@@ -587,10 +603,11 @@ transform: rotate(-20deg);
 
 	.socials{
 		margin-top: 1rem;
+
 	}
 
 	.socialicon {
-		width: 55px;
+		width: 105px;
 		transition-duration: 0.2s;
 		opacity: 1;
 		color: #242424;
@@ -689,6 +706,16 @@ transform: rotate(-20deg);
 		display: none;
 	}
 
+	#scroll-container {
+		height: 5vh;
+		padding: 0vh;
+	
+	  }
+	  
+	  #scroll-text>p{
+		font-size: 20px;
+	  }
+
     
 	.header {
 		width: 100vw;
@@ -712,6 +739,10 @@ transform: rotate(-20deg);
 		color: white;
 	}
 	
+	.socialicon {
+		width: 55px;
+	}
+
 	.logo {
 		float: left;
 		margin: 50px 0px 0px 50px;
@@ -773,6 +804,10 @@ transform: rotate(-20deg);
 	.quote-slider{
 		margin-top: 0;
 	}
+
+	.quote p {
+		font-size: 1.2rem;
+	  }
 	
 }
 
