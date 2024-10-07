@@ -88,7 +88,7 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .carousel-button {
         padding: 6px;
         font-size: 18px;
@@ -103,10 +103,13 @@
     .carousel-button.right {
         right: 5px;
     }
-}
+	.yt-embed {
+		height: 800px;
+	}
+} */
 
 @media (max-width: 480px) {
-    .carousel-button {
+    /* .carousel-button {
         padding: 4px;
         font-size: 16px;
         width: 30px;
@@ -119,7 +122,7 @@
 
     .carousel-button.right {
         right: 3px;
-    }
+    } */
 }
 
 /* Ensure carousel container is positioned correctly */
@@ -151,8 +154,6 @@
 	cursor: pointer;
 	transition-duration: 0.5s;
 }
-
-
 
 
 .read-more{
@@ -684,6 +685,27 @@ transform: rotate(-20deg);
         text-decoration: none;
     }
 	
+	/* video style */
+	.yt-embed {
+	height: 800px;
+	}
+	/* Navigation Buttons */	
+
+    .carousel-button {
+        padding: 4px;
+        font-size: 16px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel-button.left {
+        left: 3px;
+    }
+
+    .carousel-button.right {
+        right: 3px;
+    }
+
 	#bio-text{
 		/* background-color: #0000002b; */
 		border-radius: 50px;
@@ -826,6 +848,30 @@ transform: rotate(-20deg);
 		/* margin: 0px 20px 0px 20px; */
 		font-family: "BHF Beats Bold";
 	}
+
+
+	/* video style */
+	.yt-embed {
+	height: 555px;
+	}
+
+	/* Navigation Buttons */
+	.carousel-button {
+		padding: 10px;
+		font-size: 24px;
+		width: 40px;
+		height: 40px;
+	}
+
+	/* Positioning for buttons */
+	.carousel-button.left {
+		left: 10px;
+	}
+
+	.carousel-button.right {
+		right: 10px;
+	}
+
 
 	#bio-text{
 		/* background-color: #0000002b; */
