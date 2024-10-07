@@ -345,11 +345,13 @@ table{
 }
 .tour-section{
 	min-height: 10vh;
+	margin-top: 5vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: 'BHF Beats Bold';
 	font-size: 1.5rem;
+	margin-left: 5vw;
 }
 
 td{
@@ -700,10 +702,10 @@ transform: rotate(-20deg);
 		border-radius: 12px;
 		border: 2px solid white;
 		font-weight: 600;
-		font-family: 'BHF Beats Bold';
+		/* font-family: 'BHF Beats Bold'; */
 	}
 	#bio-rest>p{
-	font-size: 32px;
+	font-size: 36px;
 	line-height: 4rem;
 	}
 }
