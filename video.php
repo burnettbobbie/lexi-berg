@@ -23,7 +23,7 @@
 	<!-- Primary Meta Tags -->
 <title>Lexi Berg | Official Website</title>
 <meta name="title" content="Lexi Berg | Official Website">
-<meta name="description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
+<meta name="description" content='"Lonely Satellite" & "Bermuda Triangle" Streaming now on Spotify, Apple Music and Deezer.'>
 <meta name="robots" content="noimageai">
 <meta name="robots" content="noai">
 <!-- Open Graph / Facebook -->
@@ -50,24 +50,6 @@
 <!-- End MailerLite Universal -->
 </head>
 
-		<!-- Primary Meta Tags -->
-<title>Lexi Berg | Official Website</title>
-<meta name="title" content="Lexi Berg | Official Website">
-<meta name="description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://lexiberg.com/">
-<meta property="og:title" content="Lexi Berg | Official Website">
-<meta property="og:description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
-<meta property="og:image" content="https://lexiberg.com/img/lexiberg.jpg">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://lexiberg.com/">
-<meta property="twitter:title" content="Lexi Berg | Official Website">
-<meta property="twitter:description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
-<meta property="twitter:image" content="https://lexiberg.com/img/lexiberg.jpg">
 	
 <body>
   

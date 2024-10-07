@@ -23,20 +23,20 @@
 	<!-- Primary Meta Tags -->
 <title>Lexi Berg | Official Website</title>
 <meta name="title" content="Lexi Berg | Official Website">
-<meta name="description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
+<meta name="description" content='"Lonely Satellite" & "Bermuda Triangle" Streaming now on Spotify, Apple Music and Deezer.'>
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lexiberg.com/">
 <meta property="og:title" content="Lexi Berg | Official Website">
-<meta property="og:description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
+<meta name="description" content='"Lonely Satellite" & "Bermuda Triangle" Streaming now on Spotify, Apple Music and Deezer.'>
 <meta property="og:image" content="https://lexiberg.com/img/lexiberg.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://lexiberg.com/">
 <meta property="twitter:title" content="Lexi Berg | Official Website">
-<meta property="twitter:description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
+<meta name="description" content='"Lonely Satellite" & "Bermuda Triangle" Streaming now on Spotify, Apple Music and Deezer.'>
 <meta property="twitter:image" content="https://lexiberg.com/img/lexiberg.jpg">
 	<!-- MailerLite Universal -->
 <script>
@@ -69,13 +69,13 @@
 	</div>
 </div>
 	  
-<div class="wrap">
+<div class="tour-wrap">
     <h1 style="margin-top:-10vh">Upcoming Shows</h1>
     <div class="tour-section" id="tour-section">
 	<table >
 		<tr>
-			<td >
-				LONDON, Notting Hill Arts Club
+			<td style="">
+				NOTTING HILL ARTS CLUB, London
 			</td>
 			<td style="display:flex; align-items:center;">
 				October 24th &nbsp;&nbsp; <a href="https://dice.fm/event/3ok7gg-lexi-berg-presents-more-info-tba-24th-oct-notting-hill-arts-club-london-tickets" target="_blank"><img src="img/ticket.png" width="60%" alt="ticket" class="ticket-icon"/></a>
@@ -83,8 +83,8 @@
 		</tr>
 	
 		<tr>
-			<td>
-				STOCKHOLM, Musslan
+			<td style="">
+				MUSSLAN, Stockholm
 			</td>
 			<td>
 				November 1st 

@@ -23,21 +23,21 @@
 	<!-- Primary Meta Tags -->
 <title>Lexi Berg | Official Website</title>
 <meta name="title" content="Lexi Berg | Official Website">
-<meta name="description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
+<meta name="description" content='"Lonely Satellite" & "Bermuda Triangle" Streaming now on Spotify, Apple Music and Deezer.'>
 <meta name="robots" content="noimageai">
 <meta name="robots" content="noai">
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://lexiberg.com/">
 <meta property="og:title" content="Lexi Berg | Official Website">
-<meta property="og:description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
+<meta name="description" content='"Lonely Satellite" & "Bermuda Triangle" Streaming now on Spotify, Apple Music and Deezer.'>
 <meta property="og:image" content="https://lexiberg.com/img/lexiberg.jpg">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://lexiberg.com/">
 <meta property="twitter:title" content="Lexi Berg | Official Website">
-<meta property="twitter:description" content='"Helpless To Help You" & "Into The Sea" Streaming now on Spotify, Apple Music and Deezer.'>
+<meta name="description" content='"Lonely Satellite" & "Bermuda Triangle" Streaming now on Spotify, Apple Music and Deezer.'>
 <meta property="twitter:image" content="https://lexiberg.com/img/lexiberg.jpg">
 <!-- MailerLite Universal -->
 <script>
@@ -78,7 +78,7 @@
 
 <iframe class="widesc-spotify" style="border-radius:20px;margin-top:-12vh;box-shadow: 0px 70px 50px -10px rgba(0, 0, 255, 0.16);border-bottom: 12px solid blue;" src="https://open.spotify.com/embed/artist/5ZN5AAuWmyLdheRP0rE7dK?utm_source=generator&theme=0" width="60%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading=""></iframe>
 
-<a class="mobile-spotify" style="margin-top:-20vh" href="https://open.spotify.com/artist/5ZN5AAuWmyLdheRP0rE7dK?si=IlCSxXV3SOO-3_JVrJ8gcQ" target="_blank"><img src="img/listen-spotify.png" alt="listen on spotify" width="80%"/></a>
+<a class="mobile-spotify" style="margin-top:-20vh" href="https://open.spotify.com/artist/5ZN5AAuWmyLdheRP0rE7dK?si=IlCSxXV3SOO-3_JVrJ8gcQ" target="_blank"><img src="img/listen-spotify.png" alt="listen on spotify" width="70%"/></a>
 
 	
 	<!-- #a98252 -->
