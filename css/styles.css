@@ -491,8 +491,8 @@ transform: rotate(-20deg);
 	
 
 	.wrap {
-        width: 80%;
-        margin: 0px 10% 0px 10%;
+        width: 95vw;
+        margin: 0px auto 0px auto;
         padding: 0px;
 		z-index: 9999;
 
@@ -677,7 +677,7 @@ transform: rotate(-20deg);
         cursor: pointer;
         text-decoration: none;
     }
-
+	
 	#bio-text{
 		/* background-color: #0000002b; */
 		border-radius: 50px;
@@ -687,20 +687,23 @@ transform: rotate(-20deg);
 
 
 	#bio-text >p {
-		font-size: 30px;
+		font-size: 36px;
 		line-height: 4rem;
 		font-weight: 900;
 	}
 
 	#bio-rest{
+	
 		margin-top: 5vh;
 		background-color: black;
 		padding: 2rem;
 		border-radius: 12px;
 		border: 2px solid white;
+		font-weight: 600;
+		font-family: 'BHF Beats Bold';
 	}
 	#bio-rest>p{
-	font-size: 26px;
+	font-size: 32px;
 	line-height: 4rem;
 	}
 }
