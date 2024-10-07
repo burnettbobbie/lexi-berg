@@ -72,11 +72,12 @@
 
   <div id="bio-text" style="margin-top:-15vh">
   <p>Born in Stockholm, Sweden, and raised on a houseboat, Lexi began studying classical piano at age 5. In London, she was discovered by Faris Badwan of The Horrors, who produced her debut single, What If. This track appeared on the soundtrack of the Oscar-nominated film Pieces of a Woman and was named one of Apple Music’s Top 100 Songs of 2019. During the pandemic, Lexi signed with Warner Music UK and released her critically acclaimed EP, Empire of One, produced by Jimmy Hogarth.</p>
-
+<div id="bio-rest">
   <p>Lexi has since toured with Deacon Blue and The Howling Bells, performed at iconic venues such as Ronnie Scott’s, and at major festivals including Wilderness and Isle of Wight. Lexi also performed at the Women’s Final Boxing match at the O2 Arena in London, broadcast to over 36 million viewers. Her music has been featured on BBC Radio 2, BBC Radio London, Love Island, MTV Teen Moms, Channel 4 Sunday Brunch and more. In 2024 she started a jam night to foster a community of musicians which developed into a monthly residency at The Notting Hill Arts Club.</p>
 
   <p>Lexi’s first single as an independent artist, Lonely Satellite, released in July 2024, gained widespread recognition, featured in over 100 music blogs, and appeared on Spotify’s New Music Friday UK & Sweden, Apple’s New Pop, Deezer’s New Pop, and received support from Craig Charles on BBC Radio 6, Amazing Radio, and BBC Introducing and many more…</p>
-    </div>
+  </div>    
+</div>
 		<p>&nbsp;</p>
 
     <a class="ml-onclick-form" href="javascript:void(0)" onclick="ml('show', 'VHjK47', true)"><button style="position:absolute;z-index:9999;bottom:2; left:0;"><mark><img src="img/megaphoneflip.svg" alt="megaphone" width="40%" style=""/>Sign Up!</mark><p>For latest news, tickets and more...</p></button></a>
