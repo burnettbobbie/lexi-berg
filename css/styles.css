@@ -166,6 +166,13 @@
 	color: blue;
 }
 
+.article:hover, .article:active {
+	transform: translateX(15px);
+}
+
+.article:not(:hover) {
+	transform: translateX(-15px);
+}
 
 .a1{
 	background-image: url(../img/lexi-press-1.png);
@@ -706,24 +713,13 @@ transform: rotate(-20deg);
 	line-height: 4rem;
 	}
 
-	.article:focus {
-		transform: translateX(15px);
-	}
-	
-	/* .article:not(:focus) {
-		transform: translateX(-15px);
-	} */
+
+
 	
 }
 
 @media (min-width: 600px) {
-	.article:hover {
-		transform: translateX(15px);
-	}
-	
-	.article:not(:hover) {
-		transform: translateX(-15px);
-	}
+
 	
 	.topright {
 		/* display: contents; */
