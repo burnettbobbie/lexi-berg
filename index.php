@@ -60,7 +60,6 @@
 	
 	<div class="topleft" style="display:flex;flex-direction:column;"><a href="index.php"><img src="img/LexiBerg_Logo.png" alt="Lexi Berg" class="logo"></a>		
 	<div class="socials">
-		<!-- <a href="https://www.facebook.com/lexibergmusic" target="_blank" data-track="facebook-ftr"><img src="img/social_facebook.png" alt="Facebook" class="socialicon"></a> -->
 		<a href="https://linktr.ee/LexiBergmusic" target="_blank" data-track="twitter-ftr"><img src="img/linkTree.png" alt="LinkTree" class="socialicon"></a>
 		<a href="https://www.instagram.com/lexibergmusic/" target="_blank" data-track="instagram-ftr"><img src="img/social_instagram.png" alt="Instagram" class="socialicon"></a>
 		<a href="https://www.tiktok.com/@lexibergmusic" target="_blank" data-track="tiktok-ftr"><img src="img/social_tiktok.png" alt="TikTok" class="socialicon"></a>
