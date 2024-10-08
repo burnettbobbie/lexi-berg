@@ -73,25 +73,6 @@
 	  
 <div class="wrap">
 	
-		<!-- <h2>Watch The Video</h2> -->
-		<!-- <p>Originally premiered on <a href="https://www.wonderlandmagazine.com/2021/05/14/new-noise-lexi-berg/" target="_blank">Wonderland</a>.</p> -->
-	
-		<!-- <p>&nbsp;</p>
-
-    <iframe id="player-featured-2" class="yt-embed" width="100%" height="455" src="https://www.youtube.com/embed/E4950fsFVxI?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen=""></iframe>
-		<p>&nbsp;</p>
-		
-    <iframe id="player-featured" class="yt-embed" width="100%" height="455" src="https://www.youtube.com/embed/KE-vpIM8440?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen=""></iframe>
-		<p>&nbsp;</p>
-	
-    <iframe id="player-featured-3" class="yt-embed" width="100%" height="455" src="https://www.youtube.com/embed/7k9EwpKw02Y?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen=""></iframe>
-    <p>&nbsp;</p>
-
-    <iframe id="player-featured-4" class="yt-embed" width="100%" height="455" src="https://www.youtube.com/embed/GQPddFFxIPY?enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen=""></iframe>
-    <p>&nbsp;</p>
-
-    -->
-
      <!-- Carousel -->
      <div class="carousel-container" style="margin-top:-10vh">
             <div class="carousel-inner">
@@ -166,6 +147,48 @@
 }
 </style>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get the current path and trim any trailing slash
+    let currentPath = window.location.pathname.replace(/\/$/, "");
+    console.log("Current Path:", currentPath);
+
+    // Select all navigation links
+    const navLinks = document.querySelectorAll('.navlink');
+
+    // Loop through each nav link and compare href with the current path
+    navLinks.forEach(link => {
+        // Get the href from the link and remove any .php extensions for comparison
+        let linkPath = link.getAttribute('href').replace('.php', '');
+
+        // Handle links that don't start with `/` (relative links)
+        if (!linkPath.startsWith('/')) {
+            linkPath = '/' + linkPath; // Add leading `/` if it's missing
+        }
+
+        // Compare only the last part of the current path to match the href
+        const currentPathEnd = currentPath.split('/').pop();
+        const linkPathEnd = linkPath.split('/').pop();
+
+        console.log("Nav link href (modified):", linkPath);
+
+        // Compare the last segment of both the paths
+        if (currentPathEnd === linkPathEnd) {
+            link.classList.add('active');
+            console.log("Added active class to:", link.textContent);
+        }
+    });
+
+    // Click event listener for manual active state handling (optional)
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            navLinks.forEach(nav => nav.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+});
+
+</script>
 <script type="text/javascript">
     $('.burger, .overlay').click(function () {
         $('.burger').toggleClass('clicked');

@@ -182,6 +182,48 @@
 
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Get the current path and trim any trailing slash
+    let currentPath = window.location.pathname.replace(/\/$/, "");
+    console.log("Current Path:", currentPath);
+
+    // Select all navigation links
+    const navLinks = document.querySelectorAll('.navlink');
+
+    // Loop through each nav link and compare href with the current path
+    navLinks.forEach(link => {
+        // Get the href from the link and remove any .php extensions for comparison
+        let linkPath = link.getAttribute('href').replace('.php', '');
+
+        // Handle links that don't start with `/` (relative links)
+        if (!linkPath.startsWith('/')) {
+            linkPath = '/' + linkPath; // Add leading `/` if it's missing
+        }
+
+        // Compare only the last part of the current path to match the href
+        const currentPathEnd = currentPath.split('/').pop();
+        const linkPathEnd = linkPath.split('/').pop();
+
+        console.log("Nav link href (modified):", linkPath);
+
+        // Compare the last segment of both the paths
+        if (currentPathEnd === linkPathEnd) {
+            link.classList.add('active');
+            console.log("Added active class to:", link.textContent);
+        }
+    });
+
+    // Click event listener for manual active state handling (optional)
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            navLinks.forEach(nav => nav.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+});
+
+</script>
 
 	<script src="animsition/dist/js/animsition.min.js" charset="utf-8"></script>
 	<script>

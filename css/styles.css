@@ -516,6 +516,11 @@ transform: rotate(-20deg);
 		transform: translateX(-20px);
 	}
 
+	.navlink.active {
+		transform: translateX(-20px);
+		color:#fb4c63;
+		/* text-transform: uppercase; */
+	}
 	
 	p {
 		font-size: 20px;
