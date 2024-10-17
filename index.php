@@ -95,6 +95,17 @@
 		</div>
 
 		<div class="quote">
+		<p><strong>"Cosmic Cure for City Blues."</strong><br>
+			<span class="quote-source">Indie Boulevard Magazine</span></p>
+		</div>
+
+		<div class="quote">
+		<p><strong>"Lexi Berg is quickly becoming one of our favorite names on the rise right now."</strong><br>
+			<span class="quote-source">Lock Magazine</span></p>
+		</div>
+
+
+		<div class="quote">
 		<p><strong>"Now she has come to terms with the sadness and feels that life is divided by social highs and introspective lows, these extremes are explored in her songwriting.”</strong><br>
 		<span class="quote-source">Sunday Guardian Live</span></p>
 		</div>

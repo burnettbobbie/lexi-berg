@@ -70,11 +70,15 @@
 <div class="wrap">
 
   <div id="bio-text" style="margin-top:-15vh">
-  <p>Born in Stockholm, Sweden, and raised on a houseboat, Lexi began studying classical piano at age 5. In London, she was discovered by Faris Badwan of The Horrors, who produced her debut single, What If. This track appeared on the soundtrack of the Oscar-nominated film Pieces of a Woman and was named one of Apple Music’s Top 100 Songs of 2019. During the pandemic, Lexi signed with Warner Music UK and released her critically acclaimed EP, Empire of One, produced by Jimmy Hogarth.</p>
+  <h1 style="margin-top:-10vh">Story</h1>
+  
 <div id="bio-rest">
-  <p>Lexi has since toured with Deacon Blue and The Howling Bells, performed at iconic venues such as Ronnie Scott’s, and at major festivals including Wilderness and Isle of Wight. Lexi also performed at the Women’s Final Boxing match at the O2 Arena in London, broadcast to over 36 million viewers. Her music has been featured on BBC Radio 2, BBC Radio London, Love Island, MTV Teen Moms, Channel 4 Sunday Brunch and more. In 2024 she started a jam night to foster a community of musicians which developed into a monthly residency at The Notting Hill Arts Club.</p>
+<p>Lexi Berg is an exciting independent Swedish-American singer-songwriter from the vibrant London music scene. Instantly recognisable by her raspy powerful voice, Lexi is often compared to Adele, Lana Del Rey & Stevie Nicks. Her 70s inspired music seamlessly fuses Swedish pop melodies, with classic piano songwriting  and soulful hints of Americana and folk. </p>
 
-  <p>Lexi’s first single as an independent artist, Lonely Satellite, released in July 2024, gained widespread recognition, featured in over 100 music blogs, and appeared on Spotify’s New Music Friday UK & Sweden, Apple’s New Pop, Deezer’s New Pop, and received support from Craig Charles on BBC Radio 6, Amazing Radio, and BBC Introducing and many more…</p>
+<p>Born in Stockholm, Sweden, and raised on a houseboat, Lexi studied classical piano from the age of 5. In London, she was discovered by Faris Badwan of The Horrors, who produced her debut single What If. The track featured on the soundtrack of the Oscar-nominated film, Pieces of a Woman and was named one of the top 100 songs of 2019 by Apple Music. During the pandemic, Lexi signed with Warner Music UK and released her critically praised EP, Empire of One, produced by Jimmy Hogarth (Sia, James Blunt, Duffy).</p>
+  <p>Lexi’s new music was written and produced with Jim Eliot (Ellie Goulding, Will Young, Black Honey) in the magical hills of Wales. Born out of the paradox of loneliness in a hyperconnected world, Lonely Satellite, Lexi’s music combines raw acoustic sounds with electronic elements, creating a warm and modern soundscape: captivating, psychedelic, and emotionally rich, inviting listeners into her unique musical world. Lonely Satellite premiered in July on Apple’s New Pop & Spotify’s New Music UK & Sweden. 
+  </p>
+  <p>She has since toured with Deacon Blue and The Howling Bells, performed at venues like Ronnie Scotts, and festivals including Wilderness and the Isle of Wight, and even sang the American anthem at the Women's final boxing match at the O2 Arena in London, which was broadcast to over 35 million viewers. Lexi’s music has been featured on BBC Radio 2, BBC Radio London, Love Island, MTV Teen Moms, Channel 4 Sunday Brunch to name a few..</p>
   </div>    
 </div>
 		<p>&nbsp;</p>
